@@ -10,4 +10,4 @@ responsive website created with `html` , `css` , `javascript` also this website 
 just open IDE or code editor and run it, it has some cdn link for few libraries.
 
 ## online demo
-[personal-site](https://amirhossein-gorzin.github.io/Camping-landing-page)
+[personal-site](https://amirhossein-gorzin.github.io/Personal-landing-page)
