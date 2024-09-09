@@ -1,0 +1,234 @@
+@media screen and (max-width: 1200px){
+    .home__photo{
+        width: 38rem;
+        height: 38rem;
+    }
+    .services__item{
+        width: 29.6rem;
+        height: 29.6rem;
+    }
+    .pricing-content{
+        width: 30rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .nav__logo{
+        font-size: 5rem;
+    }
+    .menu__item{
+        margin-left: 2rem;
+    }
+    .photo{
+        width: 100%;
+        height: 34rem;
+        justify-content: center;
+    }
+    .home__photo{
+        width: 35rem;
+        height: 35rem;
+        margin: 0;
+        border-width: 1.4rem;
+    }
+    .home__content{
+        margin-top: 2rem;
+    }
+    .row{
+        flex-direction: column-reverse;
+        margin-top: 15rem;
+    }
+    .content{
+        justify-content: center;
+        text-align: center;
+    }
+    .home__links-wrapper{
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .home__title{
+        font-size: 3.5rem;
+    }
+    .home__name{
+        font-size: 2rem;
+    }
+    .home__svg{
+        display: none;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about__content{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .resume-info{
+        flex-direction: column;
+    }
+    .resume-titles{
+        box-shadow: none;
+        max-width: 40rem;
+        min-height: auto;
+        margin-bottom: 5rem;
+
+    }
+    .resume-titles::before{
+        display: none;
+    }
+    .resume-list__item::before{
+        display: none;
+    }
+    .resume-list__item{
+        display: inline;
+        border-radius: 4rem;
+        margin-top: 0;
+        padding: 1rem 1.6rem;
+        transition: all 0.2s ease-in;
+    }
+    .resume-list__item--active{
+        color: white;
+        background-color: var(--primary-color);
+    }
+    .resume-list__icon{
+        display: none;
+    }
+    .resume-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .pricing-wrapper{
+        justify-content: space-evenly;
+    }
+    .pricing-content{
+        margin-top: 3rem;
+    }
+    .contact-us__map{
+        display: none;
+    }
+    .contact{
+        margin-right: auto;
+    }
+    .footer__copy-right{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .menu{
+        /*display: none;*/
+        background-color: var(--section-bg-color);
+        position: absolute;
+        top: 9rem;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        transition: 0.2s ease-in;
+        height: 0;
+        overflow: hidden;
+    }
+    .menu--open{
+        height: 31rem;
+    }
+    .menu__item{
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    .nav__toggle-icon{
+        display: flex;
+    }
+    .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.1);
+        z-index: -1;
+        opacity: 0;
+        transition: all 0.2s ease-in;
+    }
+    .cover--show{
+        opacity: 1;
+        z-index: 99;
+    }
+    .services__svg{
+        display: none;
+    }
+    .portfolio__content__img{
+        width: 80%;
+    }
+    .pricing-content{
+        width: 21rem;
+    }
+    .footer__copy-right{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 576px){
+    .home__links-wrapper{
+        gap: 2rem;
+    }
+    .home{
+        height: 82rem;
+    }
+    .resume-content-wrapper{
+        padding: 0;
+        border: none;
+    }
+    .resume-content__title::before{
+        display: none;
+    }
+    .pricing-content{
+        width: 35rem;
+    }
+    .footer-wrapper{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .about__content{
+        padding: 2rem;
+    }
+}
+@media screen and (max-width: 410px){
+    .home__photo{
+        width: 29rem;
+        height: 29rem;
+    }
+    .photo{
+        align-items: flex-end;
+    }
+    .home__link{
+        width: 70%;
+    }
+    .home__title{
+        font-size: 2.8rem;
+    }
+    .row{
+        margin-top: 10rem;
+    }
+    .about-list__item,.about__description{
+        font-size: 14px;
+    }
+    .services__svg{
+        display: block;
+    }
+    .resume-content__date{
+        font-size: 1.4rem;
+        padding: 0.3rem 0.5rem;
+    }
+    .portfolio__content__img{
+        width: 90%;
+    }
+    .portfolio-list{
+        flex-direction: column;
+    }
+    .contact{
+        padding: 2.4rem 2rem;
+    }
+    .footer__socials{
+        gap: 0.5rem;
+        flex-wrap: wrap;
+
+    }
+}
